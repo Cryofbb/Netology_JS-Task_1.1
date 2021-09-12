@@ -18,7 +18,7 @@ for (let i = 0; i < 70; i++) {
 
 for (let i = 0; i < arr.length; i++) {
   const arrSalary = arr[i];
-  let tax = arrSalary * 20 / 100;
+  let tax = arrSalary * 0.2;
   taxArray.push(tax); 
   salarySumm+=taxArray[i];
 }
